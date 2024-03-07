@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    border-color: black;
+    margin: 0;
+    padding: 0;
+}
+.headerBar{
+    align-items: center;
+    width: 100%;
+    height: 110px;
+}
+.headerNav{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #202020;
+    border: 1px solid black;
+
+}
+.headerNav{
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.greetingCard{
+    background-color: #FFFFFF;
+    height: 477px, auto;
+    width: 25%;
+    padding: 1%;
+    position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 257px;
+}
+#resumeButton{
+    font-family: "Roboto", sans-serif;
+    font-weight: 250;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 3%;
+    color: #FFFFFF;
+    background-color: #202020;
+    margin-bottom: 10%;
+}
+#heroP{
+    font-size: 35px;
+}
+.heroText{
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    padding: 5%;
+}
+
+#heroImage{
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.skillsColumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+
+}
+.skillsSection{
+    margin-top: 250px;
+}
+
+.skillsText{
+    max-width: 260px;
+    text-align: center;
+}
+.skillsSection{
+    background-color: #FFFFFF;
+    padding-bottom: 8%;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.skillsImages{
+    display: flex;
+    justify-content: center;
+    max-width: 150%;
+    height: auto;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+#skillsHeader{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+.myskillsHeader{
+    padding-left: 8%;
+    padding-top: 4.5%;
+    padding-bottom: 8%;
+}
+.myworkHeader{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 12%;
+}
+.myworkColumns{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nasa{
+    display: flex;
+    align-items: center;
+}
+.gr8Dlz{
+    display: flex;
+    align-items: center;
+}
+.motleyZoo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25%;
+}
+.nasa, .gr8Dlz, .motleyZoo{
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.gr8Dlzpng{
+    padding-right: 10%;
+    max-width: 25%;
+    height: auto;
+}
+.motleyZoopng{
+    max-width: 35%;
+    height: auto;
+}
+.nasapng{
+    float: right;
+    max-width: 35%;
+    height: auto;
+}
+.myworkSection{
+    padding-bottom: 10%;
+}
+.myworkText{
+    text-align: center;
+    max-width: 45%;
+    margin-right: auto;
+    margin-left: 2%;
+}
+.nonprofitButton{
+    font-family: "Roboto", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 2%;
+    color: #FFFFFF;
+    background-color: #202020;
+}
+
+footer{
+    margin-top: auto;
+}
